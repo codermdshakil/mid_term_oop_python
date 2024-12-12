@@ -34,8 +34,11 @@ class Book:
 
 python_book = Book(1,'Head first Python', 'Shakil', True)
 
-
+Book.entry_book(python_book)
 print(python_book.view_book_info())
+
+
+
 
 
 
